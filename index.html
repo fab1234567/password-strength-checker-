@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Checker</title>
+</head>
+<body style="font-family: Arial; text-align:center; margin-top:50px;">
+
+    <h1>Password Strength Checker 🔐</h1>
+
+    <form method="POST">
+        <input type="text" name="password" placeholder="Enter password" required>
+        <br><br>
+        <button type="submit">Check</button>
+    </form>
+
+    {% if strength %}
+        <h2>Strength: {{ strength }}</h2>
+
+        {% if feedback %}
+            <h3>Suggestions:</h3>
+            <ul>
+                {% for f in feedback %}
+                    <li>{{ f }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endif %}
+
+</body>
+</html>
+       
