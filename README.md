@@ -44,7 +44,8 @@ password-strength-checker/
 
 ## 📷 Screenshot
 
-(Add your project screenshot here)
+<img width="1905" height="622" alt="2026-04-16 12_18_08-KALI LINUX  Running  - Oracle VirtualBox" src="https://github.com/user-attachments/assets/5fc6545b-07d4-4589-bf54-e509c7fe9da8" />
+
 
 ## 📈 Future Improvements
 
